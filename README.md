@@ -1,0 +1,2 @@
+# Image_text_extraction_by_building_OCR
+Optical character recognition (OCR) is process of classification of opti- cal patterns contained in a digital image. The character recognition is achieved through segmentation, feature extraction and classification. Keras Deep learning Network is used at here in recognising the Text characters and OpenCV is used in segmenting the text and Noise normalization.
