@@ -77,12 +77,17 @@ the extracted Text characters should be labelled with the Original character ass
 
 Here the Naming convention followed for the letters is last letter of file name should be the name associated with the character.
              
+![alt text](https://github.com/Nagakiran1/4-simple-steps-in-Builiding-OCR/blob/master/character%20Labelling.PNG)
+ 
+ 
+ 
+ 
 **2) Build a ConvNet Model  :scissors:(Character Recognition Model):**
 
 
   Convolution Network of 8 layers with 2\*4 layers residual feedbacks used in remembering the Patterns  :scissors: of the Individual Character Images.
   
-  
+ 
   ![alt text](https://github.com/Nagakiran1/Receipt_Image_Classification-/blob/master/ConvNet1.png)
   
   - Character Recognition Convolution Network is built to work as two models, 
