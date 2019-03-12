@@ -42,6 +42,40 @@ The Algorithm is built in a way to segment each individual character in a Image 
              Character recognition with the use ofOpenCV contours method
              
 ![alt text](https://github.com/Nagakiran1/4-simple-steps-in-Builiding-OCR/blob/master/Countours.PNG)
+
+
+
+
+
+***Pre-processing***
+1) The raw data depending on the data acquisition type is subjected to a number of preliminary processing steps to make it usable in the descriptive stages of character analysis. The image resulting from scanning process may contain certain amount of noise
+
+2) Smoothing implies both filling and thinning. Filling eliminates small breaks, gaps and holes in digitized characters while thinning reduces width of line.
+
+            (a) noise reduction
+
+            (b) normalization of the data and
+
+            (c) compression in the amount of information to be retained.
+            a. Noise Reduction
+***Noise reduction***: The noise introduced by the optical scanning device or the writing instrument causes disconnected line segments, bumps and gaps in lines, filled loops, etc. The distortion including local variations, rounding of corners, dilation and erosion is a potential problem.
+
+            (i) filtering
+            (ii) morphological operations and 
+            (iii) noise modeling.
+            b. Normalization:
+            The normalization methods aim to remove the variations of the writing and obtain standardized data. Some of the commonly used methods for normalization are
+
+            (i) skew normalization and baseline extraction
+            (ii) slant normalization 
+            (iii) size normalization and 
+            (iv) contour smoothing
+
+
+***Naming Convention followed***
+the extracted Text characters should be labelled with the Original character associated with it.
+
+Here the Naming convention followed for the letters is last letter of file name should be the name associated with the character.
              
 **2) Build a ConvNet Model  :scissors:(Character Recognition Model):**
 
