@@ -47,7 +47,7 @@ The Algorithm is built in a way to segment each individual character in a Image 
 
 
 
-***Pre-processing***
+- ***Pre-processing***
 1) The raw data depending on the data acquisition type is subjected to a number of preliminary processing steps to make it usable in the descriptive stages of character analysis. The image resulting from scanning process may contain certain amount of noise
 
 2) Smoothing implies both filling and thinning. Filling eliminates small breaks, gaps and holes in digitized characters while thinning reduces width of line.
@@ -58,7 +58,7 @@ The Algorithm is built in a way to segment each individual character in a Image 
 
             (c) compression in the amount of information to be retained.
             a. Noise Reduction
-***Noise reduction***: The noise introduced by the optical scanning device or the writing instrument causes disconnected line segments, bumps and gaps in lines, filled loops, etc. The distortion including local variations, rounding of corners, dilation and erosion is a potential problem.
+- ***Noise reduction***: The noise introduced by the optical scanning device or the writing instrument causes disconnected line segments, bumps and gaps in lines, filled loops, etc. The distortion including local variations, rounding of corners, dilation and erosion is a potential problem.
 
             (i) filtering
             (ii) morphological operations and 
