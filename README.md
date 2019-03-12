@@ -36,10 +36,10 @@ The Algorithm is built in a way to segment each individual character in a Image 
 
  - Select any [document or letter](https://github.com/Nagakiran1/4-simple-steps-in-Builiding-OCR/blob/master/sample.jpg) of having text information 
  
- - ***Extract Character boundaries
+ -  ***Extract Character boundaries***
              Contours can be explained simply as a curve joining all the continuous points (along the boundary). The contours are a useful tool for shape analysis and object detection and recognition. Here Contours explained in differentiating each individual character in an image with using [contour dilation](https://docs.opencv.org/trunk/d9/d61/tutorial_py_morphological_ops.html) technique.
-             Create a boundary to each character in an image with using [OpenCV Contours method](https://docs.opencv.org/3.3.0/dd/d49/tutorial_py_contour_features.html). 
-             
+             Create a boundary to each character in an image with using [OpenCV Contours](https://docs.opencv.org/3.3.0/dd/d49/tutorial_py_contour_features.html) method. 
+             Character recognised [image](https://github.com/Nagakiran1/4-simple-steps-in-Builiding-OCR/blob/master/Countours.PNG) with OpenCV contours method
              
 **2) Image Patterns Extraction  :scissors:(Pattern Recognition Model):**
 
