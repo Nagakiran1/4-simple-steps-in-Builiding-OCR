@@ -23,19 +23,28 @@ Steps involved in Optical Character recognition:-
 
 ```
 
-The Algorithm is constructed to segment each individual character in a Image as images, followed by recognition and consolidation to text in a Image.
+The Algorithm is built in a way to segment each individual character in a Image as individual images :-) , followed by recognition and consolidation to text in a Image.
 
  - to download the pre-trained Models [Pretrained Models](https://drive.google.com/file/d/1ckskSVzzFpkaMO7VyTZo0fz_m32q_S_C/view?usp=sharing)
- - to download data sample Receipt Images data [Receipt Images](https://drive.google.com/drive/folders/1q4PjRX121lj6BGDAhnM8fh1TiC78-ylO?usp=sharing)
+ - to download sample labelled character Images data [Receipt Images](https://drive.google.com/drive/folders/1q4PjRX121lj6BGDAhnM8fh1TiC78-ylO?usp=sharing)
 
 
-![alt text](https://github.com/Nagakiran1/Receipt_Image_Classification-/blob/master/Model.PNG)
+![alt text](https://github.com/Nagakiran1/4-simple-steps-in-Builiding-OCR/blob/master/OCR_Algorithm.PNG)
 
 
-**1) Image Patterns Extraction  :scissors:(Pattern Recognition Model):**
+**1) Optical Scanning :scissors: from Image :**
+
+ - Select any [document or letter](https://github.com/Nagakiran1/4-simple-steps-in-Builiding-OCR/blob/master/sample.jpg) of having text information 
+ 
+ - ***Extract Character boundaries
+             Contours can be explained simply as a curve joining all the continuous points (along the boundary). The contours are a useful tool for shape analysis and object detection and recognition. Here Contours explained in differentiating each individual character in an image with using [contour dilation](https://docs.opencv.org/trunk/d9/d61/tutorial_py_morphological_ops.html) technique.
+             Create a boundary to each character in an image with using [OpenCV Contours method](https://docs.opencv.org/3.3.0/dd/d49/tutorial_py_contour_features.html). 
+             
+             
+**2) Image Patterns Extraction  :scissors:(Pattern Recognition Model):**
 
 
-  Convolution Network of 8 layers with 2\*4 layers residual feedbacks used in remembering the Patterns  :scissors: of the Receipt Images.
+  Convolution Network of 8 layers with 2\*4 layers residual feedbacks used in remembering the Patterns  :scissors: of the Individual Character Images.
   
   
   ![alt text](https://github.com/Nagakiran1/Receipt_Image_Classification-/blob/master/ConvNet1.png)
