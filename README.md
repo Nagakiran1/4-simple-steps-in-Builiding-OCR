@@ -42,7 +42,7 @@ The Algorithm is built in a way to segment each individual character in a Image 
              Character recognition with the use ofOpenCV contours method
 ![alt text](https://github.com/Nagakiran1/4-simple-steps-in-Builiding-OCR/blob/master/Countours.PNG)
              
-**2) Image Patterns Extraction  :scissors:(Pattern Recognition Model):**
+**2) Build a ConvNet Model  :scissors:(Character Recognition Model):**
 
 
   Convolution Network of 8 layers with 2\*4 layers residual feedbacks used in remembering the Patterns  :scissors: of the Individual Character Images.
@@ -50,7 +50,7 @@ The Algorithm is built in a way to segment each individual character in a Image 
   
   ![alt text](https://github.com/Nagakiran1/Receipt_Image_Classification-/blob/master/ConvNet1.png)
   
-  - Pattern Recognition Convolution Network is built to work as two models, 
+  - Character Recognition Convolution Network is built to work as two models, 
 
 - [x] 1st Model will train on the Receipt Images with direct Classification to predict the Images with softmax Classification of Receipt Categories.
 - [ ] 2nd Model is same model with last before layer as predictor which will Calculate a Embedding of specified Flatten Neurons ( The Predicted flatten Values will have Feature Information of Receipt Images ).
