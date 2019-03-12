@@ -63,15 +63,8 @@ The Algorithm is built in a way to segment each individual character in a Image 
             (i) filtering
             (ii) morphological operations and 
             (iii) noise modeling.
-            b. Normalization:
-            The normalization methods aim to remove the variations of the writing and obtain standardized data. Some of the commonly used methods for normalization are
-
-            (i) skew normalization and baseline extraction
-            (ii) slant normalization 
-            (iii) size normalization and 
-            (iv) contour smoothing
-
-
+            
+            
 ***Naming Convention followed***
 the extracted Text characters should be labelled with the Original character associated with it.
 
@@ -92,14 +85,14 @@ Here the Naming convention followed for the letters is last letter of file name 
   
   - Character Recognition Convolution Network is built to work as two models, 
 
-- [x] 1st Model will train on the Receipt Images with direct Classification to predict the Images with softmax Classification of Receipt Categories.
+- [x] 1st Model will train on the Individual Character Images with direct Classification to predict the Images with softmax Classification of Character Categories.
 - [ ] 2nd Model is same model with last before layer as predictor which will Calculate a Embedding of specified Flatten Neurons ( The Predicted flatten Values will have Feature Information of Receipt Images ).
             
   - Convolution Last before layer Embedding Output is considered as Pattern Feature of Image.
 
-**2) Text Feature Extraction (OCR in Extracting Text):**
+**2) Load Trained ConvNet OCR model:**
 
-Receipt text information conveys much information in classifying the Receipt, but conventional Neural Networks cannot learn on the Text features in the Image. 
+once affter training the model loading the pre-trained Optical character recognition model.
 
 So to use the Text as Features, 2 stages of processing is needed.
 
@@ -109,7 +102,6 @@ So to use the Text as Features, 2 stages of processing is needed.
   ![alt text](https://github.com/Nagakiran1/Receipt_Image_Classification-/blob/master/OpticalCharacterRecognition.jpg)
   
   
-  ![alt text](https://github.com/Nagakiran1/Receipt_Image_Classification-/blob/master/Models/BindingBox3.jpg)
 
   - LSTM Sequential models is also built to work as two models, 
 
