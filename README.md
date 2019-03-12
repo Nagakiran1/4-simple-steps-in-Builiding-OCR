@@ -1,5 +1,5 @@
 # 4_Simple_steps_in_Building_OCR-
-Optical character recognition (OCR) is process of classification of opti- cal patterns contained in a digital image. The character recognition is achieved through segmentation, feature extraction and classification.
+Optical character recognition (OCR) is process of classifying opti- cal patterns contained in a digital image. The character recognition is achieved through segmentation, feature extraction and classification.
 
 OCR (optical character recognition) is the recognition of printed or written text characters by a computer. This involves photoscanning of the text character-by-character, analysis of the scanned-in image, and then translation of the character image into character codes, such as ASCII, commonly used in data processing.
 
