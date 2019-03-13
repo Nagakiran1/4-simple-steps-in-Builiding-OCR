@@ -93,9 +93,6 @@ once affter training the model loading the pre-trained Optical character recogni
 - !) Once after training the OCR model on labelled names data, load the pre trained model in recognising the specific character. .
 - !!) Predict each character image and label it with the prediction associated with the Optical character recognition technique.
 
-  ![alt text](https://github.com/Nagakiran1/Receipt_Image_Classification-/blob/master/OpticalCharacterRecognition.jpg)
-  
-  
 
             
             
