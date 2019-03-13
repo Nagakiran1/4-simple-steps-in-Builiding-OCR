@@ -94,10 +94,8 @@ Here the Naming convention followed for the letters is last letter of file name 
 
 once affter training the model loading the pre-trained Optical character recognition model.
 
-So to use the Text as Features, 2 stages of processing is needed.
-
-- !) Recognizing the Text of Receipt or any Image. Here Tesseract Optical Recognition technique is used in recognizing the text and extracting from image.
-- !!) Extracted Text of Receipt and Images are fed to the Sequential LSTM Classification Network. (In classifying the Text the ).
+- !) Once after training the OCR model on labelled names data, load the pre trained model in recognising the specific character. .
+- !!) Predict each character image and label it with the prediction associated with the Optical character recognition technique.
 
   ![alt text](https://github.com/Nagakiran1/Receipt_Image_Classification-/blob/master/OpticalCharacterRecognition.jpg)
   
