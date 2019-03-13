@@ -90,7 +90,10 @@ Here the Naming convention followed for the letters is last letter of file name 
             
   - Convolution Last before layer Embedding Output is considered as Pattern Feature of Image.
 
-**2) Load Trained ConvNet OCR model:**
+**3) Load Trained ConvNet OCR model:**
+
+Optical Character recognition last step involves preprocessing of image into specific word related contours and letter contours, followed by prediction and consolidating according to letter and word related contours in an image.
+
 
 once affter training the model loading the pre-trained Optical character recognition model.
 
@@ -103,9 +106,10 @@ once affter training the model loading the pre-trained Optical character recogni
 
             
             
-**3) Load trained ConvNet OCR model :**
+**4) Test and Consolidate Predictions of OCR :**
 
-- Once after training the OCR model on labelled names data, load the pre trained model in recognising the specific character. 
+Consolidate predicitons involves, assigning specific ID to each word related contour with the line associated with the word in image and consolidating all predictions in a sorted series of specific word related contour and letters associated word.
+
 - Predict each character image and label it with the prediction associated with the Optical character recognition technique.
-
+- Fix the word associated with the prediction with the use of word contour and line through line related contour and consolidate all together.
 /play rimshot
