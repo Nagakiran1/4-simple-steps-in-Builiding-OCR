@@ -99,7 +99,7 @@ once affter training the model loading the pre-trained Optical character recogni
 **4) Test and Consolidate Predictions of OCR :**
 
 Consolidate predicitons involves, assigning specific ID to each word related contour with the line associated with the word in image, Consolidating all predictions in a sorted series of specific word related contour and letters associated word.
-![alt text](https://github.com/Nagakiran1/4-simple-steps-in-Builiding-OCR/blob/master/Word_contour.png)
+![alt text](https://github.com/Nagakiran1/4-simple-steps-in-Builiding-OCR/blob/master/Word_contour.PNG)
 
 - Predict each character image and label it with the prediction associated with the Optical character recognition technique.
 - Fix the word associated with the prediction with the use of word contour and line through line related contour and consolidate all together.
