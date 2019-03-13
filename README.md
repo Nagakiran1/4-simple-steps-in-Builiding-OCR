@@ -26,7 +26,7 @@ Steps involved in Optical Character recognition:-
 The Algorithm is built in a way to segment each individual character in a Image as individual images :-) , followed by recognition and consolidation to text in a Image.
 
  - to download the pre-trained Models [Pretrained Models](https://drive.google.com/file/d/1ckskSVzzFpkaMO7VyTZo0fz_m32q_S_C/view?usp=sharing)
- - to download sample labelled character Images data [Receipt Images](https://drive.google.com/drive/folders/1q4PjRX121lj6BGDAhnM8fh1TiC78-ylO?usp=sharing)
+ - to download sample [labelled character Images](https://drive.google.com/drive/folders/1q4PjRX121lj6BGDAhnM8fh1TiC78-ylO?usp=sharing)
 
 
 ![alt text](https://github.com/Nagakiran1/4-simple-steps-in-Builiding-OCR/blob/master/OCR_Algorithm.PNG)
@@ -44,7 +44,14 @@ The Algorithm is built in a way to segment each individual character in a Image 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![alt text](https://github.com/Nagakiran1/4-simple-steps-in-Builiding-OCR/blob/master/Countours.PNG)
 
 
+            
+***Naming Convention followed***
+the extracted Text characters should be labelled with the Original character associated with it.
 
+Here the Naming convention followed for the letters is last letter of file name should be the name associated with the character.
+             
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![alt text](https://github.com/Nagakiran1/4-simple-steps-in-Builiding-OCR/blob/master/character%20Labelling.PNG)
+ 
 
 
 - ***Pre-processing***
@@ -57,21 +64,9 @@ The Algorithm is built in a way to segment each individual character in a Image 
             (b) normalization of the data and
 
             (c) compression in the amount of information to be retained.
-            a. Noise Reduction
-- ***Noise reduction***: The noise introduced by the optical scanning device or the writing instrument causes disconnected line segments, bumps and gaps in lines, filled loops, etc. The distortion including local variations, rounding of corners, dilation and erosion is a potential problem.
 
-            (i) filtering
-            (ii) morphological operations and 
-            (iii) noise modeling.
             
-            
-***Naming Convention followed***
-the extracted Text characters should be labelled with the Original character associated with it.
 
-Here the Naming convention followed for the letters is last letter of file name should be the name associated with the character.
-             
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![alt text](https://github.com/Nagakiran1/4-simple-steps-in-Builiding-OCR/blob/master/character%20Labelling.PNG)
- 
  
  
  
@@ -82,9 +77,7 @@ Here the Naming convention followed for the letters is last letter of file name 
   
  
   ![alt text](https://github.com/Nagakiran1/Receipt_Image_Classification-/blob/master/ConvNet1.png)
-  
-  - Character Recognition Convolution Network is built to work as two models, 
-
+ 
 - [x] 1st Model will train on the Individual Character Images with direct Classification to predict the Images with softmax Classification of Character Categories.
 - [ ] 2nd Model is same model with last before layer as predictor which will Calculate a Embedding of specified Flatten Neurons ( The Predicted flatten Values will have Feature Information of Receipt Images ).
             
