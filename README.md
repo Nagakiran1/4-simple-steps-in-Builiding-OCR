@@ -103,18 +103,11 @@ So to use the Text as Features, 2 stages of processing is needed.
   
   
 
-  - LSTM Sequential models is also built to work as two models, 
-
-- [x] 1st Model will train on the Receipt text with direct Classification to classify text with softmax Classification of Receipt Categories.
-- [x] 2nd Model is same model with last before layer as predictor which will Calculate a Embedding of specified Flatten Neurons ( The Predicted flatten Values will have Feature Information Text key words).
             
             
-            
-**3) Receipt Classifier :**
+**3) Load trained ConvNet OCR model :**
 
-Receipt Classifier is the main model in Classifying the Image either as Receipt or not.
-
-- The Receipt Classifier is the Neural Network of having two 1 Dimensional convolution layers( to keep rememeber the Receipt Image pattern Information) and followed by 1 LSTM layer(to keep remember the Sequence of Receipt key words). 
-- Input to the Network is given by the concatenated features of Pattern information Predicted Embedding values and Text Features extraction model Embedding output.
+- Once after training the OCR model on labelled names data, load the pre trained model in recognising the specific character. 
+- Predict each character image and label it with the prediction associated with the Optical character recognition technique.
 
 /play rimshot
