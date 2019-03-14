@@ -94,7 +94,11 @@ once affter training the model loading the pre-trained Optical character recogni
 - !!) Predict each character image and label it with the prediction associated with the Optical character recognition technique.
 
 
-            
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![alt text](https://github.com/Nagakiran1/4-simple-steps-in-Builiding-OCR/blob/master/OCR%20workflow.PNG)
+
+
+
+
             
 **4) Test and Consolidate Predictions of OCR :**
 
@@ -103,9 +107,6 @@ Consolidate predicitons involves, assigning specific ID to each word related con
 
 - Predict each character image and label it with the prediction associated with the Optical character recognition technique.
 - Fix the word associated with the prediction with the use of word contour and line through line related contour and consolidate all together.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![alt text](https://github.com/Nagakiran1/4-simple-steps-in-Builiding-OCR/blob/master/OCR%20workflow.PNG)
-
 
 
 /play rimshot
