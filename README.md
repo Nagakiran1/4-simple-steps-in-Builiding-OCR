@@ -1,5 +1,5 @@
 # 4_Simple_steps_in_Building_OCR-
-[Optical character recognition (OCR) is process of classifying opti- cal patterns contained in a digital image. The character recognition is achieved through segmentation, feature extraction and classification.](https://medium.com/datadriveninvestor/4-simple-steps-in-building-ocr-1f41c66099c1)
+Optical character recognition (OCR) is process of classifying opti- cal patterns contained in a digital image. The character recognition is achieved through segmentation, feature extraction and classification.
 
 OCR (optical character recognition) is the recognition of printed or written text characters by a computer. This involves photoscanning of the text character-by-character, analysis of the scanned-in image, and then translation of the character image into character codes, such as ASCII, commonly used in data processing.
 
@@ -23,7 +23,7 @@ Steps involved in Optical Character recognition:-
 
 ```
 
-The Algorithm is built in a way to segment each individual character in a Image as individual images :-) , followed by recognition and consolidation to text in a Image.
+[The Algorithm is built in a way to segment each individual character in a Image as individual images :-) , followed by recognition and consolidation to text in a Image.](https://medium.com/datadriveninvestor/4-simple-steps-in-building-ocr-1f41c66099c1)
 
  - to download the pre-trained Models [Pretrained Models](https://drive.google.com/file/d/1ckskSVzzFpkaMO7VyTZo0fz_m32q_S_C/view?usp=sharing)
  - to download sample [labelled character Images](https://drive.google.com/drive/folders/1q4PjRX121lj6BGDAhnM8fh1TiC78-ylO?usp=sharing)
