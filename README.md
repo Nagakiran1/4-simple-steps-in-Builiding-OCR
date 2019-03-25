@@ -26,7 +26,7 @@ Steps involved in Optical Character recognition:-
 [The Algorithm is built in a way to segment each individual character in a Image as individual images :-) , followed by recognition and consolidation to text in a Image.](https://medium.com/datadriveninvestor/4-simple-steps-in-building-ocr-1f41c66099c1)
 
  - to download the pre-trained Models [Pretrained Models](https://drive.google.com/file/d/1ckskSVzzFpkaMO7VyTZo0fz_m32q_S_C/view?usp=sharing)
- - to download sample [labelled character Images](https://drive.google.com/drive/folders/1q4PjRX121lj6BGDAhnM8fh1TiC78-ylO?usp=sharing)
+ - to download sample [labelled character Images](https://drive.google.com/drive/u/1/folders/1UtChjL6z30hOPpm8cdlzKj4jGDF56Ym8)
 
 
 ![alt text](https://github.com/Nagakiran1/4-simple-steps-in-Builiding-OCR/blob/master/OCR_Algorithm.PNG)
